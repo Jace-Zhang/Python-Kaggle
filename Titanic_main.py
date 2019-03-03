@@ -5,7 +5,7 @@ import sys
 from pandas import Series,DataFrame
 
 import matplotlib.pyplot as plt # 引入matplotlib包
-plt.rcParams['font.family']=['Songti']
+#plt.rcParams['font.family']=['Songti']
 
 # from matplotlib.font_manager import FontProperties
 # font=FontProperties(fname='/Library/Fonts/Songti.ttc',size=10)
@@ -53,3 +53,4 @@ data_train.Embarked.value_counts().plot(kind='bar')
 plt.title(u"各登船口岸上船人数")
 plt.ylabel(u"人数")  
 plt.show()
+print("呜呜呜")
